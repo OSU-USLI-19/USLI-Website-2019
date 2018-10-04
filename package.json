@@ -4,10 +4,12 @@
   "description": "A webpage for the Oregon State University USLI Rocketry Team. ",
   "main": "index.js",
   "dependencies": {
+    "@material-ui/core": "^3.1.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-redux": "^5.0.7",
-    "redux": "^4.0.0"
+    "redux": "^4.0.0",
+    "save": "^2.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
