@@ -57,7 +57,7 @@ function NavBar(props) {
 			>
 				<div className={classes.toolbar} />
 				<List>
-					{['HOME', 'About Us', 'NASA', 'Documents'].map((text, index) => (
+					{['Home', 'About Us', 'Deliverables'].map((text, index) => (
 						<ListItem button key={text}>
 							{/*<ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />  }</ListItemIcon> */}
 
@@ -67,7 +67,7 @@ function NavBar(props) {
 				</List>
 				<Divider />
 				<List>
-					{['Educational Outreach', 'Donate', 'Sponsors'].map((text, index) => (
+					{['Archive', 'Outreach', 'Sponsors'].map((text, index) => (
 						<ListItem button key={text}>
 							{/*<ListItemIcon>{index % 2 === 0 ? <InboxIcon />: <MailIcon />}</ListItemIcon> */}
 							<ListItemText primary={text} />
