@@ -7,7 +7,7 @@ import Homepage from "./components/webpages/Homepage";
 const bla = createMuiTheme({
 	palette: {
 		primary: {
-			main: '#FF3D00'
+			main: '#d73f09'
 			//light: "",
 			//dark: "",
 			//contrastText: ""
