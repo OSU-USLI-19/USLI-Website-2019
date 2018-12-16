@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { MuiThemeProvider } from '@material-ui/core/styles';
 import NavBar from "./components/NavBar";
-import Home from "./components/pages/Home";
-import AboutUs from "./components/pages/AboutUs"
 import BaseTheme from "./components/themes/BaseTheme"
+import Body from "./components/Body";
 
 const App = () => (
 	<Router>
@@ -12,12 +11,7 @@ const App = () => (
 			<header>
 				<NavBar />
 			</header>
-			<main>
-				<Switch>
-					<Route path="/home" component={Home} />
-					<Route path="/aboutus" component={AboutUs} />
-				</Switch>
-			</main>
+			<Body />
 		</MuiThemeProvider>
 	</Router>
 )
