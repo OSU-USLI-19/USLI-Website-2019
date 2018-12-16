@@ -6,7 +6,10 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs"
+import Deliverables from "./pages/Deliverables"
+import Archive from "./pages/Archive"
 import Sponsors from "./pages/Sponsors"
+import Outreach from "./pages/Outreach"
 
 const styles = theme => ({
 	MainBody: {
@@ -27,7 +30,10 @@ function Body(prop) {
 				<Switch>
 					<Route path="/home" component={Home} />
 					<Route path="/about us" component={AboutUs} />
+					<Route path="/Deliverables" component={Deliverables} />
+					<Route path="/Archive" component={Archive} />
 					<Route path="/Sponsors" component={Sponsors} />
+					<Route path="/Outreach" component={Outreach} />
 				</Switch>
 			</Paper>
 		</div>

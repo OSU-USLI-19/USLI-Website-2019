@@ -9,14 +9,14 @@ import CardMedia from '@material-ui/core/CardMedia';
 const styles = {
 };
 
-class Sponsors extends Component {
+class Outreach extends Component {
 	render() {
 		return (
 			<div>
 				<Paper>
 					<Card>
 						<CardContent>
-							Sponsors
+							Outreach
 						</CardContent>
 					</Card>
 				</Paper>
@@ -26,4 +26,4 @@ class Sponsors extends Component {
 	}
 }
 
-export default withStyles(styles)(Sponsors);
+export default withStyles(styles)(Outreach);
