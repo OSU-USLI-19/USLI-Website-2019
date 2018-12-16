@@ -12,7 +12,9 @@ const styles = {
 	}
 };
 
-class Homepage extends Component {
+
+
+class Sponsors extends Component {
 	render() {
 		return (
 			<div>
@@ -20,17 +22,13 @@ class Homepage extends Component {
 					<Card>
 						<CardContent>
 							
-							
 						</CardContent>
-						<CardMedia
-							className="media"
-							image="/src/media/p.jpg"
-						/>
 					</Card>
 				</Paper>
+
 			</div>
 		);
 	}
 }
 
-export default withStyles(styles)(Homepage);
+export default withStyles(styles)(Sponsors);
