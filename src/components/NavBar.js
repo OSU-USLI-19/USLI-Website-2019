@@ -1,5 +1,6 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
+import { Link } from 'react-router-dom';
 import Drawer from '@material-ui/core/Drawer';
 import AppBar from '@material-ui/core/AppBar';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -8,7 +9,6 @@ import List from '@material-ui/core/List';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 
 
@@ -58,9 +58,7 @@ function NavBar(props) {
 				<div className={classes.toolbar} />
 				<List>
 					{['Home', 'About Us', 'Deliverables'].map((text, index) => (
-						<ListItem button key={text}>
-							{/*<ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />  }</ListItemIcon> */}
-
+						<ListItem button key={text} component={Link} to={"/" + text}>
 							<ListItemText primary={text} />
 						</ListItem>
 					))}
@@ -68,22 +66,12 @@ function NavBar(props) {
 				<Divider />
 				<List>
 					{['Archive', 'Outreach', 'Sponsors'].map((text, index) => (
-						<ListItem button key={text}>
-							{/*<ListItemIcon>{index % 2 === 0 ? <InboxIcon />: <MailIcon />}</ListItemIcon> */}
+						<ListItem button key={text} component={Link} to={"/" + text}>
 							<ListItemText primary={text} />
 						</ListItem>
 					))}
 				</List>
 			</Drawer>
-			{/*<main className={classes.content}>
-				<div className={classes.toolbar} />
-				<Typography paragraph>
-					
-				</Typography>
-				<Typography paragraph>
-					
-				</Typography>
-			</main> */}
 		</div>
 	);
 }

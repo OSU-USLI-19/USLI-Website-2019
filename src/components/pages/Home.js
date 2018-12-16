@@ -7,25 +7,17 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 
 const styles = {
-	media: {
-		height: 250
-	}
 };
 
-class Homepage extends Component {
+class Home extends Component {
 	render() {
 		return (
 			<div>
 				<Paper>
 					<Card>
 						<CardContent>
-
-							
+							Home
 						</CardContent>
-						<CardMedia
-							className="media"
-							image="/src/media/p.jpg"
-						/>
 					</Card>
 				</Paper>
 			</div>
@@ -33,4 +25,4 @@ class Homepage extends Component {
 	}
 }
 
-export default withStyles(styles)(Homepage);
+export default withStyles(styles)(Home);
