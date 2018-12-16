@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import NavBar from "./components/NavBar";
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
-import Homepage from "./components/webpages/Homepage";
+import Body from "./components/Body";
+import NavBar from "./components/NavBar";
 
 // Material ui theme
 const bla = createMuiTheme({
@@ -25,7 +25,7 @@ class App extends Component {
 		<div>
 			<MuiThemeProvider theme={bla}>
 				<NavBar />
-				<Homepage />
+				<Body />
 			</MuiThemeProvider>
 		</div>
     );
