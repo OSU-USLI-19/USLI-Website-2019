@@ -12,13 +12,13 @@ const styles = {
 
 
 
-class Sponsors extends Component {
+class Deliverables extends Component {
 	render() {
 		return (
 			<div>
 				<Card>
 					<CardContent>
-							
+                        <a href='/somefile.txt' download>Click to download</a>	
 					</CardContent>
 				</Card>
 			</div>
@@ -26,4 +26,4 @@ class Sponsors extends Component {
 	}
 }
 
-export default withStyles(styles)(Sponsors);
+export default withStyles(styles)(Deliverables);
