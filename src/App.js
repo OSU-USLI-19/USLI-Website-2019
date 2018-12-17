@@ -1,35 +1,19 @@
 import React, { Component } from 'react';
-import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
-import Body from "./components/Body";
+import { BrowserRouter as Router } from 'react-router-dom';
+import { MuiThemeProvider } from '@material-ui/core/styles';
 import NavBar from "./components/NavBar";
+import BaseTheme from "./components/themes/BaseTheme"
+import Body from "./components/Body";
 
-// Material ui theme
-const bla = createMuiTheme({
-	palette: {
-		primary: {
-			main: '#d73f09'
-			//light: "",
-			//dark: "",
-			//contrastText: ""
-		},
-		secondary: {
-			main: '#212121'
-		}
-		//error: { main: '' }
-	}
-})
-
-class App extends Component {
-	render() {
-    return (
-		<div>
-			<MuiThemeProvider theme={bla}>
+const App = () => (
+	<Router>
+		<MuiThemeProvider theme={BaseTheme} >
+			<header>
 				<NavBar />
-				<Body />
-			</MuiThemeProvider>
-		</div>
-    );
-  }
-}
+			</header>
+			<Body />
+		</MuiThemeProvider>
+	</Router>
+)
 
 export default App;

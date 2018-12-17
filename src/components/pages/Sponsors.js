@@ -5,12 +5,7 @@ import CardContent from '@material-ui/core/CardContent';
 
 
 const styles = {
-	media: {
-		height: 250
-	}
 };
-
-
 
 class Sponsors extends Component {
 	render() {
@@ -18,7 +13,7 @@ class Sponsors extends Component {
 			<div>
 				<Card>
 					<CardContent>
-							
+						Sponsors
 					</CardContent>
 				</Card>
 			</div>
