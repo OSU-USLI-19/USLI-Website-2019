@@ -1,16 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { MuiThemeProvider } from '@material-ui/core/styles';
-import NavBar from "./components/NavBar";
-import BaseTheme from "./components/themes/BaseTheme"
+import CssBaseline from '@material-ui/core/CssBaseline';
+import BaseTheme from "./components/themes/BaseTheme";
+import NavDrawer from "./components/header/NavDrawer";
+import TitleBar from "./components/header/TitleBar";
 import Body from "./components/Body";
 
 const App = () => (
 	<Router>
 		<MuiThemeProvider theme={BaseTheme} >
-			<header>
-				<NavBar />
-			</header>
+			<CssBaseline />
+			<TitleBar />
+			<NavDrawer />
 			<Body />
 		</MuiThemeProvider>
 	</Router>

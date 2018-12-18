@@ -7,8 +7,13 @@ const BaseTheme = createMuiTheme({
 		},
 		secondary: {
 			main: '#212121'
-		}
-	}
+		},
+	},
+	overides: {
+		body: {
+			background: '#424242'
+		},
+	},
 })
 
 export default BaseTheme;
