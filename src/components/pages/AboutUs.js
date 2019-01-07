@@ -25,4 +25,5 @@ class AboutUs extends Component {
 	}
 }
 
+
 export default withStyles(styles)(AboutUs);
