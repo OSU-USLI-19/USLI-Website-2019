@@ -1,15 +1,15 @@
 {
-  "main.css": "/static/css/main.c49a5dfd.chunk.css",
-  "main.js": "/static/js/main.3d9f7713.chunk.js",
-  "main.js.map": "/static/js/main.3d9f7713.chunk.js.map",
-  "static/js/1.62df9895.chunk.js": "/static/js/1.62df9895.chunk.js",
-  "static/js/1.62df9895.chunk.js.map": "/static/js/1.62df9895.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/Oregon_State_University-2019-PDR-Report.pdf": "/static/media/Oregon_State_University-2019-PDR-Report.ea727de1.pdf",
-  "static/media/OSU_USLI_2019_CDR.pdf": "/static/media/OSU_USLI_2019_CDR.83dd66b5.pdf",
-  "static/css/main.c49a5dfd.chunk.css.map": "/static/css/main.c49a5dfd.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.f677ca6c6f15989dc9d4e1f89dad60ac.js": "/precache-manifest.f677ca6c6f15989dc9d4e1f89dad60ac.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/USLI-Website-2019/static/css/main.c49a5dfd.chunk.css",
+  "main.js": "/USLI-Website-2019/static/js/main.3d9f7713.chunk.js",
+  "main.js.map": "/USLI-Website-2019/static/js/main.3d9f7713.chunk.js.map",
+  "static/js/1.62df9895.chunk.js": "/USLI-Website-2019/static/js/1.62df9895.chunk.js",
+  "static/js/1.62df9895.chunk.js.map": "/USLI-Website-2019/static/js/1.62df9895.chunk.js.map",
+  "runtime~main.js": "/USLI-Website-2019/static/js/runtime~main.88e58926.js",
+  "runtime~main.js.map": "/USLI-Website-2019/static/js/runtime~main.88e58926.js.map",
+  "static/media/Oregon_State_University-2019-PDR-Report.pdf": "/USLI-Website-2019/static/media/Oregon_State_University-2019-PDR-Report.ea727de1.pdf",
+  "static/media/OSU_USLI_2019_CDR.pdf": "/USLI-Website-2019/static/media/OSU_USLI_2019_CDR.83dd66b5.pdf",
+  "static/css/main.c49a5dfd.chunk.css.map": "/USLI-Website-2019/static/css/main.c49a5dfd.chunk.css.map",
+  "index.html": "/USLI-Website-2019/index.html",
+  "precache-manifest.c08f00e2409d77f1fc200f0414639fe1.js": "/USLI-Website-2019/precache-manifest.c08f00e2409d77f1fc200f0414639fe1.js",
+  "service-worker.js": "/USLI-Website-2019/service-worker.js"
 }
