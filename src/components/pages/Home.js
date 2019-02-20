@@ -20,6 +20,9 @@ class Home extends Component {
 	render() {
 		return (
 			<section style={ styles }>
+			<div>
+			<h1> Home Page </h1>
+			</div>
 			</section>
 		);
 	}
