@@ -15,11 +15,10 @@ class Archive extends Component {
 				<Paper>
 					<Card>
 						<CardContent>
-							Archive
+						Archive 
 						</CardContent>
 					</Card>
 				</Paper>
-
 			</div>
 		);
 	}
