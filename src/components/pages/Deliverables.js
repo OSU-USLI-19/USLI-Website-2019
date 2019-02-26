@@ -9,11 +9,11 @@ const styles = theme => ({
     display: 'flex',
     flexWrap: 'wrap',
     minWidth: 300,
-    width: '100%',
+    width: 'calc(100% - 220px)',
   },
   image: {
     position: 'relative',
-    height: 200,
+    height: 300,
     [theme.breakpoints.down('xs')]: {
       width: '100% !important', // Overrides inline-style
       height: 100,
@@ -79,19 +79,24 @@ const styles = theme => ({
 
 const images = [
   {
-    url: '/static/images/grid-list/breakfast.jpg',
+    url: require('/Users/Ryanwallerius/USLI-Website-2019/src/components/files/Patch.PNG'),
     title: 'Breakfast',
-    width: '40%',
+    width: '50%',
   },
   {
-    url: '/static/images/grid-list/burgers.jpg',
+    url: require('/Users/Ryanwallerius/USLI-Website-2019/src/components/files/Patch.PNG'),
     title: 'Burgers',
-    width: '30%',
+    width: '50%',
   },
   {
-    url: '/static/images/grid-list/camera.jpg',
-    title: 'Camera',
-    width: '30%',
+    url: require('/Users/Ryanwallerius/USLI-Website-2019/src/components/files/Patch.PNG'),
+    title: 'Burgers',
+    width: '50%',
+  },
+  {
+    url: require('/Users/Ryanwallerius/USLI-Website-2019/src/components/files/Patch.PNG'),
+    title: 'Burgers',
+    width: '50%',
   },
 ];
 

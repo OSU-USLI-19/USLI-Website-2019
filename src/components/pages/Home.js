@@ -10,9 +10,10 @@ import { ResponsiveImage, ResponsiveImageSize } from 'react-responsive-image';
 import Patch from '../files/Patch.PNG';
 
 const styles = {
-	width: "100%",
+	width: 'calc(100% - 220px)',
 	height: "1000px",
-	backgroundImage: "url(" + Background + ")"
+	backgroundImage: "url(" + Background + ")",
+	overflowY: 'scroll',
 };
 
 
