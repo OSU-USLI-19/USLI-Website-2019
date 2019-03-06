@@ -6,6 +6,7 @@ import BaseTheme from "./components/themes/BaseTheme";
 import NavDrawer from "./components/header/NavDrawer";
 import TitleBar from "./components/header/TitleBar";
 import Body from "./components/Body";
+import Footer from "./components/header/Footer";
 
 const App = () => (
 	<Router>
@@ -14,6 +15,7 @@ const App = () => (
 			<TitleBar />
 			<NavDrawer />
 			<Body />
+			<Footer />
 		</MuiThemeProvider>
 	</Router>
 )
