@@ -10,6 +10,7 @@ import InfoIcon from '@material-ui/icons/Info';
 import tileData from './tileData.js';
 import pdr from '../files/Oregon_State_University-2019-PDR-Report.pdf';
 
+
 const styles = theme => ({
   root: {
     display: 'flex',
@@ -28,23 +29,6 @@ const styles = theme => ({
   },
 });
 
-/**
- * The example data is structured as follows:
- *
- * import image from 'path/to/image.jpg';
- * [etc...]
- *
- * const tileData = [
- *   {
- *     img: image,
- *     title: 'Image',
- *     author: 'author',
- *   },
- *   {
- *     [etc...]
- *   },
- * ];
- */
 function TitlebarGridList(props) {
   const { classes } = props;
 
@@ -60,7 +44,7 @@ function TitlebarGridList(props) {
             <GridListTileBar
               title={tile.title}
               actionIcon={
-                <IconButton className={classes.icon}>
+                <IconButton className={classes.button}>
                   <InfoIcon />
                   <a href={tile.doc} download={tile.comment}>Download</a>
                 </IconButton>
