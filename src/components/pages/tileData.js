@@ -5,64 +5,70 @@ import pdrFlysheet from '../files/PDR_Flysheet_18_19.pdf'
 import cdr from '../files/OSU_USLI_2019_CDR.pdf';
 import cdrPresentation from '../files/CDR_Presentation.pdf';
 import cdrFlysheet from '../files/FINAL_CDR_Flysheet.pdf';
+import frr from '../files/Oregon_State_University-2019-FRR-Report.pdf';
+import frrPresentation from '../files/Oregon_State_University-2019-FRR-Presentation.pdf';
+import frrFlysheet from '../files/Oregon_State_University-2019-FRR-Flysheet.pdf';
 
 const tileData = [
   {
-    img: require('/Users/Ryanwallerius/USLI-Website-2019/src/components/files/Patch.PNG'),
+    img: require('../files/Patch.PNG'),
     title: 'Oregon State University - Proposal',
     doc: proposal,
     comment: 'Oregon State Proposal'
   },
   {
-    img: require('/Users/Ryanwallerius/USLI-Website-2019/src/components/files/Patch.PNG'),
+    img: require('../files/Patch.PNG'),
     title: 'Oregon State University - PDR Report',
     doc: pdr,
     comment: 'Oregon State PDR',
   },
   {
-    img: require('/Users/Ryanwallerius/USLI-Website-2019/src/components/files/Patch.PNG'),
+    img: require('../files/Patch.PNG'),
     title: 'Oregon State University - PDR Presentation',
     doc: pdrPresentation,
     comment: 'Oregon State PDR Presentation',
   },
   {
-    img: require('/Users/Ryanwallerius/USLI-Website-2019/src/components/files/Patch.PNG'),
+    img: require('../files/Patch.PNG'),
     title: 'Oregon State University - PDR Flysheet',
     doc: pdrFlysheet,
     comment: 'Oregon State PDR Flysheet',
   },
   {
-    img: require('/Users/Ryanwallerius/USLI-Website-2019/src/components/files/Patch.PNG'),
+    img: require('../files/Patch.PNG'),
     title: 'Oregon State University - CDR Report',
     doc: cdr,
     comment: 'Oregon State CDR',
   },
   {
-    img: require('/Users/Ryanwallerius/USLI-Website-2019/src/components/files/Patch.PNG'),
+    img: require('../files/Patch.PNG'),
     title: 'Oregon State University - CDR Presentation',
     doc: cdrPresentation,
     comment: 'Oregon State CDR Presentation',
   },
   {
-    img: require('/Users/Ryanwallerius/USLI-Website-2019/src/components/files/Patch.PNG'),
+    img: require('../files/Patch.PNG'),
     title: 'Oregon State University - CDR Flysheet',
     doc: cdrFlysheet,
     comment: 'Oregon State CDR Flysheet',
   },
   {
-    img: require('/Users/Ryanwallerius/USLI-Website-2019/src/components/files/Patch.PNG'),
+    img: require('../files/Patch.PNG'),
     title: 'Oregon State University - FRR Report',
-    author: 'BkrmadtyaKarki',
+    doc: frr,
+    comment: 'Oregon State FRR Report',
   },
   {
-    img: require('/Users/Ryanwallerius/USLI-Website-2019/src/components/files/Patch.PNG'),
+    img: require('../files/Patch.PNG'),
     title: 'Oregon State University - FRR Presentation',
-    author: 'PublicDomainPictures',
+    doc: frrPresentation,
+    comment: 'Oregon State FRR Presentation',
   },
   {
-    img: require('/Users/Ryanwallerius/USLI-Website-2019/src/components/files/Patch.PNG'),
+    img: require('../files/Patch.PNG'),
     title: 'Oregon State University - FRR Flysheet',
-    author: 'congerdesign',
+    doc: frrFlysheet,
+    comment: 'Oregon State FRR Flysheet',
   },
 ];
 

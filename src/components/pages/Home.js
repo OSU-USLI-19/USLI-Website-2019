@@ -15,7 +15,10 @@ const styles = {
 	height: "1000px",
 	backgroundImage: "url(" + Corvallis + ")",
 	overflowY: 'scroll',
-	
+
+	h1: {
+		color: 'Red',
+	},
 };
 
 
