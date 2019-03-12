@@ -14,12 +14,12 @@ import MissionProfile from '../files/mission-profile.png';
 
 const styles = {
 	width: 'calc(100% - 220px)',
-	height: "1000px",
-	backgroundImage: "url(" + Corvallis + ")",
-	overflow: 'scroll',
+	height: '860px',
+	overflowY: 'auto',
+	overflowX: 'auto',
 
 	root: {
-		overflow: 'scroll',
+		overflow: 'auto',
 	},
 };
 
@@ -34,7 +34,13 @@ const Title = styled.h1`
 // Create a Wrapper component that'll render a <section> tag with some styles
 const Wrapper = styled.section`
   padding: 1em;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.8);
+`;
+
+const Wrapper1 = styled.section`
+	padding: 1em;
+	background: rgba(0,0,0,0);
+	overflowY: scroll;
 `;
 
 const MissionTitle = styled.h1`
@@ -68,7 +74,7 @@ class Home extends Component {
 	render() {
 		return (
 			<section style={ styles }>
-			<div style={{overflowY: 'auto',fontSize: '14px'}}>
+			<div style={{overflowY: 'auto' , fontSize: '16px'}}>
 			<Wrapper>
 		    <Title>
 		      University Student Launch Initiative
@@ -76,7 +82,7 @@ class Home extends Component {
 		    </Title>
 			</Wrapper>
 
-			<Mission>
+			<Wrapper1>
 				<MissionTitle>
 					What is USLI?
 				</MissionTitle>
@@ -87,12 +93,9 @@ class Home extends Component {
         middle and high schools, colleges, and universities across the nation (NASA.gov). This is OSU's
         second year participating in this challenge, and the team is comprised of Mechanical, Electrical,
         and Software Engineering students all working toward a successful rocket launch and payload
-        deployment. </MissionStatement>
-
+        deployment. 
+				</MissionStatement>
 				<img src={MissionProfile} width="100%" height = "auto"/>
-
-
-				<MissionStatement>
 				Each team must design, build, and launch a single-stage solid-propellant rocket to an
         altitude of one mile. Once the rocket has landed, a robotic payload must be deployed, move a
         specified distance away from the rocket body, and collect a soil sample. Teams are also responsible
@@ -100,10 +103,10 @@ class Home extends Component {
         performs the best over all categories is designated by NASA as the competition's victor. Last year
         (2018), the OSU USLI team scored 6th out of 45 teams, and secured awards for Rookie of the Year and
         3rd place overall in payload design.
-				</MissionStatement>
-			</Mission>
-			</div>
-			</section>
+				</Wrapper1>
+				</div>
+				</section>
+
 		);
 	}
 }
