@@ -63,11 +63,12 @@ const Mission = styled.section`
   background:rgba(255,255,255, 1);
 `;
 
+
 class Home extends Component {
 	render() {
 		return (
 			<section style={ styles }>
-			<div style={{overflow: 'scroll'}}>
+			<div style={{overflowY: 'auto',fontSize: '14px'}}>
 			<Wrapper>
 		    <Title>
 		      University Student Launch Initiative
@@ -86,9 +87,12 @@ class Home extends Component {
         middle and high schools, colleges, and universities across the nation (NASA.gov). This is OSU's
         second year participating in this challenge, and the team is comprised of Mechanical, Electrical,
         and Software Engineering students all working toward a successful rocket launch and payload
-        deployment.
+        deployment. </MissionStatement>
 
-				<img src={MissionProfile} height="auto" width="1050"/>
+				<img src={MissionProfile} width="100%" height = "auto"/>
+
+
+				<MissionStatement>
 				Each team must design, build, and launch a single-stage solid-propellant rocket to an
         altitude of one mile. Once the rocket has landed, a robotic payload must be deployed, move a
         specified distance away from the rocket body, and collect a soil sample. Teams are also responsible
