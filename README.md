@@ -1,6 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+To Start run the command: 
+### `https://github.com/OSU-USLI-19/USLI-Website-2019.git` 
+This will clone the current repo to your local machine. 
+
+To check if you have Node.js and npm installed run the following:
+### `node -v`
+### `npm -v`
+
+To install NPM run: 
+### `npm install`
 
 In the project directory, you can run:
 
