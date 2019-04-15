@@ -12,6 +12,12 @@ To check if you have Node.js and npm installed run the following:
 To install NPM run: 
 ### `npm install`
 
+Then to download all material UI core moduels not already on your computer: 
+### `npm install @material-ui/core`
+
+Right after that is done downloading run: 
+### `npm audit fix`
+
 In the project directory, you can run:
 
 ### `npm start`
