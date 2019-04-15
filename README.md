@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 To Start run the command: 
-### `https://github.com/OSU-USLI-19/USLI-Website-2019.git` 
+### `git clone https://github.com/OSU-USLI-19/USLI-Website-2019.git` 
 This will clone the current repo to your local machine. 
 
 To check if you have Node.js and npm installed run the following:
