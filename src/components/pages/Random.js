@@ -538,3 +538,99 @@ export default withStyles(styles)(ButtonBases);
     <a href={cdr} download="Oregon State CDR">Download</a>
   </Button>
 </CardActions>
+
+
+
+
+import React, { Component } from 'react';
+import { withStyles } from '@material-ui/core/styles';
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
+
+
+const styles = {
+};
+
+
+
+class Sponsors extends Component {
+	render() {
+		return (
+			<div>
+				<Card>
+					<CardContent>
+						Sponsors
+					</CardContent>
+				</Card>
+			</div>
+		);
+	}
+}
+
+export default withStyles(styles)(Sponsors);
+
+
+
+
+
+import React from 'react';
+import PropTypes from 'prop-types';
+import { withStyles } from '@material-ui/core/styles';
+import GridList from '@material-ui/core/GridList';
+import GridListTile from '@material-ui/core/GridListTile';
+import tileData from './sponsorData';
+
+const styles = theme => ({
+  root: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between',
+    overflow: 'hidden',
+    backgroundColor: theme.palette.background.paper,
+  },
+  gridList: {
+    width: 'calc(100%-220px)',
+    height: 'calc(100%-50px)',
+  },
+});
+
+/**
+ * The example data is structured as follows:
+ *
+ * import image from 'path/to/image.jpg';
+ * [etc...]
+ *
+ * const tileData = [
+ *   {
+ *     img: image,
+ *     title: 'Image',
+ *     author: 'author',
+ *     cols: 2,
+ *   },
+ *   {
+ *     [etc...]
+ *   },
+ * ];
+ */
+function ImageGridList(props) {
+  const { classes } = props;
+
+  return (
+    <div className={classes.root}>
+      <GridList cellHeight={'500'} className={classes.gridList} cols={3}>
+        {tileData.map(tile => (
+          <GridListTile key={tile.img} cols={tile.cols || 1}>
+            <img src={tile.img} alt={tile.title} />
+          </GridListTile>
+        ))}
+      </GridList>
+    </div>
+  );
+}
+
+ImageGridList.propTypes = {
+  classes: PropTypes.object.isRequired,
+};
+
+export default withStyles(styles)(ImageGridList);
+

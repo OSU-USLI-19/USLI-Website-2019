@@ -14,7 +14,8 @@ import MissionProfile from '../files/mission-profile.png';
 
 const styles = {
 	width: 'calc(100% - 220px)',
-	height: '860px',
+	height: 'calc(100% + 50px)',
+	flex: '1',
 	overflowY: 'auto',
 	overflowX: 'auto',
 

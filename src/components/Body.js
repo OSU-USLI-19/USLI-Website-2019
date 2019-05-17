@@ -12,7 +12,7 @@ import Outreach from "./pages/Outreach"
 const styles = theme => ({
 	MainBody: {
 		backgroundColor: "#424242",
-		position: "fixed",
+		position: "absolute",
 		left: 220,
 		height: '100%',
 		width: '100%',

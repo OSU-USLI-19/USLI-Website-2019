@@ -10,6 +10,7 @@ import Typography from "@material-ui/core/Typography";
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
+import photo from '../files/USLI_Team_Photo.jpg'
 
 const styles = theme => ({
   table: {
@@ -203,10 +204,11 @@ rows.push(createData('Robby ONeil', 'oneilro@oregonstate.edu', 'ECE', 'Rover Ele
 //                            Outreach Directory
 rows.push(data[0])
 rows.push(createData('Jessica Scotten', 'scottenj@oregonstate.edu', 'Outreach', 'Outreach Lead', 'Microbiology'));
+rows.push(data[0])
 
 function ReactVirtualizedTable() {
   return (
-    <Paper style={{ height: 580, width: 'calc(100% - 220px)' }}>
+    <Paper style={{ height: 900, width: 'calc(100% - 220px)' }}>
       <WrappedVirtualizedTable
         rowCount={rows.length}
         rowGetter={({ index }) => rows[index]}
@@ -245,6 +247,7 @@ function ReactVirtualizedTable() {
         ]}
       />
     </Paper>
+    
   );
 }
 
